@@ -1,6 +1,9 @@
 #include<graphics.h>
 #include<conio.h>
 #include<math.h>
+
+// this is a good project for new programming student for explore the new topic 
+
 class iron{
 	void boundfill(int xc,int yc,int r,int b)
 {
@@ -346,13 +349,13 @@ getch();
 
 
 class lovean{
-	//animation foe hraet
+	//animation foe heart 
 	
 	public:
-		lovean(){
+		lovean(){// constructor taki obj bante hi call ho jaye bar bar obj s call karne ki need nhih 
 			for (int i=0;i<=858;i++){//for how animation goes to screen 
 	
-int	  x=rand()%getmaxx();
+int	  x=rand()%getmaxx();// rand fun randomely generate krta h pix and getmxx usse x axis m l aayega
   int        y=rand()%getmaxy();
           putpixel(x,y,15);
 	
@@ -367,7 +370,7 @@ for(int k=0;k<=10;k++){
 
 setcolor(k);
 settextstyle(6,0,5);
-outtextxy(400,150,"i love really you");
+outtextxy(400,150,"i love really you");// y heart k andar content print karnae k liye
 outtextxy(460,200,"h");
 //outtextxy(500,190,"NEXT PART COMING SOON");
 delay(100);
@@ -701,3 +704,4 @@ name e;
 	closegraph();
 }
 //project by shivanshu tiwari
+// for more information and project pls contact :shivanshut9889@gmailcom
